@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "rs",
-      "description": "Structured development workflow: grill-me, write-tech-spec, write-issue, tdd, show",
+      "description": "Structured development workflow skills. Run /rs:show to get started.",
       "author": {
         "name": "duedl0r"
       },
