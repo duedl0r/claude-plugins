@@ -57,3 +57,11 @@ Fix any issues found in both passes before committing.
 ## Step 7 — Commit Implementation
 Once all tests are green and the review is clean, commit the implementation:
 `feat(scope): implement [feature]`
+
+## Step 8 — Abschlussarbeiten
+Nach dem Commit: Räume alle Tracking-Dateien auf die während dieses Workflows erstellt oder verwendet wurden.
+
+1. Suche nach `todo.md`, `TODO.md`, `docs/issue.md`, `docs/*.md` und ähnlichen Dateien im Projekt
+2. Hake alle erledigten Punkte ab (Markdown-Checkboxen `- [ ]` → `- [x]`, oder streiche offene Einträge durch)
+3. Melde kurz was abgehakt wurde — und falls noch offene Punkte übrig bleiben, liste sie explizit auf damit der User entscheiden kann was als nächstes zu tun ist
+4. Committe die aktualisierten Dateien: `chore: update todo and issue tracking after [feature]`

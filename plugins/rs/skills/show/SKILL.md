@@ -24,4 +24,4 @@ Schreibt ein Tech Spec Dokument aus der Chat-History.
 Schreibt ein kompaktes Issue-Ticket aus der Chat-History. Speichert als `docs/filename.md` (default: `docs/issue.md`).
 
 ## /rs:tdd
-Umsetzung nach TDD: Tests schreiben → rot verifizieren → implementieren → grün iterieren → Code Review → committen.
+Umsetzung nach TDD: Tests schreiben → rot verifizieren → implementieren → grün iterieren → Code Review → committen → Abschlussarbeiten (todo.md & Issue-Files aktualisieren).
