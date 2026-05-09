@@ -11,4 +11,4 @@ claude plugin install rs
 
 ## Available plugins
 
-- [`rs`](plugins/rs/README.md) — structured development workflow (`/rs:grill-me`, `/rs:tdd`, `/rs:write-tech-spec`, `/rs:write-issue`, `/rs:duedl0r`)
+- [`rs`](plugins/rs/README.md) — structured development workflow (`/rs:grill-me`, `/rs:tdd`, `/rs:write-tech-spec`, `/rs:write-issue`, `/rs:show`)

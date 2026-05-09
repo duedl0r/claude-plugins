@@ -10,7 +10,7 @@ Structured development workflow skills for Claude Code.
 | `/rs:write-tech-spec [file]` | Generate a full tech spec from the conversation |
 | `/rs:write-issue [file]` | Generate a concise issue ticket from the conversation |
 | `/rs:tdd` | Strict TDD: failing tests → implement → review → commit |
-| `/rs:duedl0r` | Show the recommended end-to-end workflow |
+| `/rs:show` | Show the recommended end-to-end workflow |
 
 ## Recommended workflow
 

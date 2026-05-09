@@ -1,5 +1,5 @@
 ---
-name: duedl0r
+name: show
 description: Shows the recommended end-to-end development workflow
 ---
 
