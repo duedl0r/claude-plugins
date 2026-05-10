@@ -1,12 +1,17 @@
 ---
 name: tdd
 description: Implement a feature using strict Test-Driven Development — write failing tests, verify RED, implement, code review, commit
-argument-hint: [feature description]
+argument-hint: [docs/filename.md or feature description]
 ---
 
-Implement the feature described in our conversation using strict Test-Driven Development (TDD).
+Implement the feature using strict Test-Driven Development (TDD).
 
 Follow these steps exactly, in order. Do not skip steps.
+
+## Step 0 — Load Spec (only if a file path was passed as argument)
+If the argument looks like a file path (e.g. `docs/spec.md`), read that file now before proceeding.
+The feature to implement is then described in that file plus our conversation.
+If no file path was given, use the feature described in our conversation.
 
 ## Step 1 — Write Unit Tests
 Write comprehensive unit tests for the feature. Cover happy paths, edge cases, and error cases.
