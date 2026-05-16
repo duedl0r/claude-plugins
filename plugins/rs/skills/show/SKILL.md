@@ -11,7 +11,8 @@ Show the following workflow to the user exactly as written, without any addition
 2. Claude interviewt systematisch
 3. `/rs:write-tech-spec filename` oder `/rs:write-issue` — Dokument wird erstellt
 4. `/clear` — Chat leeren (Tokens sparen, Kontext sauber halten)
-5. `/rs:tdd docs/filename.md` — Tests → Implementierung → Code Review → Commit
+5. Mit Tests: `/rs:tdd docs/filename.md` — Tests → Implementierung → Code Review → Commit
+   Ohne Tests: `/rs:code docs/filename.md` — Implementierung → Code Review → Commit
 
 ## /rs:grill-me
 Interviewt mich systematisch über einen Plan bis wir ein gemeinsames Verständnis haben.
@@ -24,3 +25,6 @@ Schreibt ein kompaktes Issue-Ticket aus der Chat-History. Speichert als `docs/fi
 
 ## /rs:tdd [docs/filename.md]
 Liest optional eine Spec-Datei ein, dann: Tests schreiben → rot verifizieren → implementieren → grün iterieren → Code Review → committen → Abschlussarbeiten (todo.md & Issue-Files aktualisieren).
+
+## /rs:code [docs/filename.md]
+Liest optional eine Spec-Datei ein, dann: direkt implementieren → Code Review → committen → Abschlussarbeiten. Für Projekte oder Features ohne Testinfrastruktur.
