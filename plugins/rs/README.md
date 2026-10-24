@@ -13,6 +13,7 @@ Structured development workflow skills for Claude Code.
 | `/rs:code` | Direct implementation without TDD — implement → review → commit |
 | `/rs:show` | Show the recommended end-to-end workflow |
 | `/rs:todo <text>` | Add a todo item to TODO.md and commit it |
+| `/rs:discuss [question]` | Read-only discussion mode — ask questions using project context, nothing gets changed |
 
 ## Recommended workflow
 

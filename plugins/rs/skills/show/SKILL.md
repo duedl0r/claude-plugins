@@ -32,3 +32,6 @@ Liest optional eine Issue-Datei ein, dann: Bug-reproduzierenden Test schreiben �
 
 ## /rs:code [docs/filename.md]
 Liest optional eine Spec-Datei ein, dann: direkt implementieren → Code Review → committen → Abschlussarbeiten. Für Projekte oder Features ohne Testinfrastruktur.
+
+## /rs:discuss [frage]
+Read-only Diskussionsmodus bis Session-Ende: Fragen stellen mit Projekt-Kontext, ohne dass Dateien, Journal, Memory oder Git verändert werden. Beenden mit "discuss beenden".
